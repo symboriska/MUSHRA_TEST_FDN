@@ -115,4 +115,4 @@ pages:
       content: Thank you for attending
       popupContent: Your results were sent. Goodbye and have a nice day
       showResults: true
-      writeResults: false
+      writeResults: true
