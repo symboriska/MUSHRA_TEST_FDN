@@ -3,7 +3,7 @@
 
 testname: MUSHRA without looping
 testId: mushra_noloop
-bufferSize: 2048
+bufferSize: 4096
 stopOnErrors: true
 showButtonPreviousPage: true
 remoteService: "https://hooks.zapier.com/hooks/catch/24167465/u61gik6/?key=CHANGE_ME&user=${id}"
