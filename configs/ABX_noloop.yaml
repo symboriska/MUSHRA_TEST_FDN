@@ -1,7 +1,7 @@
 # test config AB test, waveform, 3 conditions, no looping
 
 
-testname: ABX without looping
+testname: ABX Test
 testId: abx_noloop
 bufferSize: 4096
 stopOnErrors: true
