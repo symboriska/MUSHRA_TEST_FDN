@@ -14,7 +14,7 @@ pages:
     - type: mushra
       id: Bathroom
       name: Bathroom
-      content: Please listen to the reference sample before each audio comparison. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
+      content: Remember to hear the reference every time before comparing the audios. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/IRs/rir_Bathroom_stereo.wav
@@ -28,7 +28,7 @@ pages:
     - type: mushra
       id: Bedroom
       name: Bedroom
-      content: Please listen to the reference sample before each audio comparison. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
+      content: Remember to hear the reference every time before comparing the audios. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/IRs/rir_Bedroom_stereo.wav
@@ -42,7 +42,7 @@ pages:
     - type: mushra
       id: Classroom
       name: Classroom
-      content: Please listen to the reference sample before each audio comparison. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
+      content: Remember to hear the reference every time before comparing the audios. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/IRs/rir_Classroom_stereo.wav
@@ -56,7 +56,7 @@ pages:
     - type: mushra
       id: DiningRoom
       name: Dining Room
-      content: Please listen to the reference sample before each audio comparison. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
+      content: Remember to hear the reference every time before comparing the audios. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/IRs/rir_Diningroom_stereo.wav
@@ -70,7 +70,7 @@ pages:
     - type: mushra
       id: Hallway
       name: Hallway
-      content: Please listen to the reference sample before each audio comparison. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
+      content: Remember to hear the reference every time before comparing the audios. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/IRs/rir_Hallway_stereo.wav
@@ -84,7 +84,7 @@ pages:
     - type: mushra
       id: Lobby
       name: Lobby
-      content: Please listen to the reference sample before each audio comparison. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
+      content: Remember to hear the reference every time before comparing the audios. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/IRs/rir_Lobby_stereo.wav
@@ -98,7 +98,7 @@ pages:
     - type: mushra
       id: MeetingRoom
       name: Meeting Room
-      content: Please listen to the reference sample before each audio comparison. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
+      content: Remember to hear the reference every time before comparing the audios. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/IRs/rir_MeetingRoom_stereo.wav
