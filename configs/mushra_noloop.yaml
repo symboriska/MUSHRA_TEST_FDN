@@ -6,8 +6,8 @@ testId: mushra_noloop
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
-# remoteService: service/write.php
-
+remoteService: https://hooks.zapier.com/hooks/catch/24167465/u61gik6/?key=CHANGE_ME&user=${id}
+stopOnErrors: true
 
 pages:
 
