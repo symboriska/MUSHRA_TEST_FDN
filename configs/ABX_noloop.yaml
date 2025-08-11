@@ -1,0 +1,271 @@
+# test config AB test, waveform, 3 conditions, no looping
+
+
+testname: ABX without looping
+testId: abx_noloop
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+
+    - type: paired_comparison
+      id: speechBathroom
+      name: speech bathroom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/speech_conv/rir_Bathroom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/speech_conv/rir_Bathroom_conv_stereo.wav
+          C2: configs/resources/speech_conv/rir_Bathroom_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: speechBedroom
+      name: speech bedroom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/speech_conv/rir_Bedroom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/speech_conv/rir_Bedroom_conv_stereo.wav
+          C2: configs/resources/speech_conv/rir_Bedroom_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: speechClassroom
+      name: speech Classroom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/speech_conv/rir_Classroom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/speech_conv/rir_Classroom_conv_stereo.wav
+          C2: configs/resources/speech_conv/rir_Classroom_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: speechDiningroom
+      name: speech Diningroom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/speech_conv/rir_Diningroom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/speech_conv/rir_Diningroom_conv_stereo.wav
+          C2: configs/resources/speech_conv/rir_Diningroom_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: speechHallway
+      name: speech Hallway
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/speech_conv/rir_Hallway_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/speech_conv/rir_Hallway_conv_stereo.wav
+          C2: configs/resources/speech_conv/rir_Hallway_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: speechLobby
+      name: speech Lobby
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/speech_conv/rir_Lobby_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/speech_conv/rir_Lobby_conv_stereo.wav
+          C2: configs/resources/speech_conv/rir_Lobby_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: speechMeetingRoom
+      name: speech MeetingRoom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/speech_conv/rir_MeetingRoom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/speech_conv/rir_MeetingRoom_conv_stereo.wav
+          C2: configs/resources/speech_conv/rir_MeetingRoom_synth_conv_stereo.wav  
+
+    - type: paired_comparison
+      id: drumDiningroom
+      name: drum Diningroom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/drum_conv/rir_Diningroom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/drum_conv/rir_Diningroom_conv_stereo.wav
+          C2: configs/resources/drum_conv/rir_Diningroom_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: drumHallway
+      name: drum Hallway
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/drum_conv/rir_Hallway_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/drum_conv/rir_Hallway_conv_stereo.wav
+          C2: configs/resources/drum_conv/rir_Hallway_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: drumLobby
+      name: drum Lobby
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/drum_conv/rir_Lobby_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/drum_conv/rir_Lobby_conv_stereo.wav
+          C2: configs/resources/drum_conv/rir_Lobby_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: drumMeetingRoom
+      name: drum MeetingRoom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/drum_conv/rir_MeetingRoom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/drum_conv/rir_MeetingRoom_conv_stereo.wav
+          C2: configs/resources/drum_conv/rir_MeetingRoom_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: drumBathroom
+      name: drum Bathroom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/drum_conv/rir_Bathroom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/drum_conv/rir_Bathroom_conv_stereo.wav
+          C2: configs/resources/drum_conv/rir_Bathroom_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: drumBedroom
+      name: drum Bedroom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/drum_conv/rir_Bedroom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/drum_conv/rir_Bedroom_conv_stereo.wav
+          C2: configs/resources/drum_conv/rir_Bedroom_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: drumClassroom
+      name: drum Classroom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/drum_conv/rir_Classroom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/drum_conv/rir_Classroom_conv_stereo.wav
+          C2: configs/resources/drum_conv/rir_Classroom_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: pianoBedroom
+      name: piano Bedroom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/piano_conv/rir_Bedroom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/piano_conv/rir_Bedroom_conv_stereo.wav
+          C2: configs/resources/piano_conv/rir_Bedroom_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: pianoDiningroom
+      name: piano Diningroom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/piano_conv/rir_Diningroom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/piano_conv/rir_Diningroom_conv_stereo.wav
+          C2: configs/resources/piano_conv/rir_Diningroom_synth_conv_stereo.wav 
+
+    - type: paired_comparison
+      id: pianoHallway
+      name: piano Hallway
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/piano_conv/rir_Hallway_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/piano_conv/rir_Hallway_conv_stereo.wav
+          C2: configs/resources/piano_conv/rir_Hallway_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: pianoLobby
+      name: piano Lobby
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/piano_conv/rir_Lobby_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/piano_conv/rir_Lobby_conv_stereo.wav
+          C2: configs/resources/piano_conv/rir_Lobby_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: pianoMeetingRoom
+      name: piano MeetingRoom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/piano_conv/rir_MeetingRoom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/piano_conv/rir_MeetingRoom_conv_stereo.wav
+          C2: configs/resources/piano_conv/rir_MeetingRoom_synth_conv_stereo.wav
+
+    - type: paired_comparison
+      id: pianoBathroom
+      name: piano Bathroom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/piano_conv/rir_Bathroom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/piano_conv/rir_Bathroom_conv_stereo.wav
+          C2: configs/resources/piano_conv/rir_Bathroom_synth_conv_stereo.wav
+
+
+    - type: paired_comparison
+      id: pianoClassroom
+      name: piano Classroom
+      unforced: I don't know
+      content: Select the sound that is closer to the reference sound.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/piano_conv/rir_Classroom_conv_stereo.wav
+      stimuli:
+          C1: configs/resources/piano_conv/rir_Classroom_conv_stereo.wav
+          C2: configs/resources/piano_conv/rir_Classroom_synth_conv_stereo.wav
+
+    - type: finish
+      name: Thank you
+      content: Thank you for attending
+      showResults: true
+      writeResults: true

@@ -1,0 +1,118 @@
+# test config mushra page, waveform, 11 conditions, no looping
+
+
+testname: MUSHRA without looping
+testId: mushra_noloop
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+
+    - type: mushra
+      id: Bathroom
+      name: Bathroom
+      content: Artificial reverberation in bathroom. 100 : no audible difference. 80: slightly audible difference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/IRs/rir_Bathroom_stereo.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/IRs/rir_Bathroom_synth_stereo.wav
+          C2: configs/resources/IRs/rir_Bathroom_DiffFDN_stereo.wav
+          C3: configs/resources/IRs/rir_Bathroom_stereo_anchor.wav
+
+    - type: mushra
+      id: Bedroom
+      name: Bedroom
+      content: Artificial reverberation in bedroom. 100 : no audible difference. 80: slightly audible difference. 60: audible difference. 40: very audible difference. 20: huge audible difference. 0: very very very audible difference.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/IRs/rir_Bedroom_stereo.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/IRs/rir_Bedroom_synth_stereo.wav
+          C2: configs/resources/IRs/rir_Bedroom_DiffFDN_stereo.wav
+          C3: configs/resources/IRs/rir_Bedroom_stereo_anchor.wav
+
+    - type: mushra
+      id: Classroom
+      name: Classroom
+      content: Artificial reverberation in classroom. 100 : no audible difference. 80: slightly audible difference. 60: audible difference. 40: very audible difference. 20: huge audible difference. 0: very very very audible difference.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/IRs/rir_Classroom_stereo.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/IRs/rir_Classroom_synth_stereo.wav
+          C2: configs/resources/IRs/rir_Classroom_DiffFDN_stereo.wav
+          C3: configs/resources/IRs/rir_Classroom_stereo_anchor.wav
+
+    - type: mushra
+      id: Dining Room
+      name: Dining Room
+      content: Artificial reverberation in dining room. 100 : no audible difference. 80: slightly audible difference. 60: audible difference. 40: very audible difference. 20: huge audible difference. 0: very very very audible difference.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/IRs/rir_Diningroom_stereo.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/IRs/rir_Diningroom_synth_stereo.wav
+          C2: configs/resources/IRs/rir_Diningroom_DiffFDN_stereo.wav
+          C3: configs/resources/IRs/rir_Diningroom_stereo_anchor.wav
+
+    - type: mushra
+      id: Hallway
+      name: Hallway
+      content: Artificial reverberation in hallway. 100 : no audible difference. 80: slightly audible difference. 60: audible difference. 40: very audible difference. 20: huge audible difference. 0: very very very audible difference.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/IRs/rir_Hallway_stereo.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/IRs/rir_Hallway_synth_stereo.wav
+          C2: configs/resources/IRs/rir_Hallway_DiffFDN_stereo.wav
+          C3: configs/resources/IRs/rir_Hallway_stereo_anchor.wav
+
+    - type: mushra
+      id: Lobby
+      name: Lobby
+      content: Artificial reverberation in lobby. 100 : no audible difference. 80: slightly audible difference. 60: audible difference. 40: very audible difference. 20: huge audible difference. 0: very very very audible difference.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/IRs/rir_Lobby_stereo.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/IRs/rir_Lobby_synth_stereo.wav
+          C2: configs/resources/IRs/rir_Lobby_DiffFDN_stereo.wav
+          C3: configs/resources/IRs/rir_Lobby_stereo_anchor.wav
+
+    - type: mushra
+      id: Meeting Room
+      name: Meeting Room
+      content: Artificial reverberation in meeting room. 100 : no audible difference. 80: slightly audible difference. 60: audible difference. 40: very audible difference. 20: huge audible difference. 0: very very very audible difference.
+      showWaveform: true
+      enableLooping: false 
+      reference: configs/resources/IRs/rir_MeetingRoom_stereo.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/IRs/rir_MeetingRoom_synth_stereo.wav
+          C2: configs/resources/IRs/rir_MeetingRoom_DiffFDN_stereo.wav
+          C3: configs/resources/IRs/rir_MeetingRoom_stereo_anchor.wav
+
+
+    - type: finish
+      name: Thank you
+      content: Thank you for attending
+      popupContent: Your results were sent. Goodbye and have a nice day
+      showResults: true
+      writeResults: true
