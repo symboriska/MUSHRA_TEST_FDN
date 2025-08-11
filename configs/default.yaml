@@ -3,8 +3,6 @@ testId: default_example
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
-showButtonPreviousPage: true
-remoteService: "https://hooks.zapier.com/hooks/catch/24167465/u61gik6/?key=CHANGE_ME&user=${id}"
 
 
 pages:
@@ -56,23 +54,23 @@ pages:
       content: Thank you for attending!
       showResults: true
       writeResults: true
-      # questionnaire:
-      #     - type: text
-      #       label: eMail
-      #       name: email
-      #     - type: number
-      #       label: Age
-      #       name: age
-      #       min: 0
-      #       max: 100
-      #       default: 30
-      #     - type: likert
-      #       name: gender
-      #       label: Gender
-      #       response:
-      #        - value: female
-      #          label: Female
-      #        - value: male
-      #          label: Male
-      #        - value: other
-      #          label: Other
+      questionnaire:
+          - type: text
+            label: eMail
+            name: email
+          - type: number
+            label: Age
+            name: age
+            min: 0
+            max: 100
+            default: 30
+          - type: likert
+            name: gender
+            label: Gender
+            response:
+             - value: female
+               label: Female
+             - value: male
+               label: Male
+             - value: other
+               label: Other
