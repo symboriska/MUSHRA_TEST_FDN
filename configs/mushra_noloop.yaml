@@ -6,7 +6,7 @@ testId: mushra_noloop
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
-remoteService: service/write.php
+# remoteService: service/write.php
 
 
 pages:
@@ -54,7 +54,7 @@ pages:
           C3: configs/resources/IRs/rir_Classroom_stereo_anchor.wav
 
     - type: mushra
-      id: Dining Room
+      id: DiningRoom
       name: Dining Room
       content: Artificial reverberation in dining room. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
@@ -96,7 +96,7 @@ pages:
           C3: configs/resources/IRs/rir_Lobby_stereo_anchor.wav
 
     - type: mushra
-      id: Meeting Room
+      id: MeetingRoom
       name: Meeting Room
       content: Artificial reverberation in meeting room. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
@@ -115,4 +115,4 @@ pages:
       content: Thank you for attending
       popupContent: Your results were sent. Goodbye and have a nice day
       showResults: true
-      writeResults: true
+      writeResults: false
