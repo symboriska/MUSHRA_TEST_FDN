@@ -28,7 +28,7 @@ pages:
     - type: mushra
       id: Bedroom
       name: Bedroom
-      content: Artificial reverberation in bedroom. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference. 0: very very very audible difference.
+      content: Artificial reverberation in bedroom. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/IRs/rir_Bedroom_stereo.wav
@@ -42,7 +42,7 @@ pages:
     - type: mushra
       id: Classroom
       name: Classroom
-      content: Artificial reverberation in classroom. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference. 0: very very very audible difference.
+      content: Artificial reverberation in classroom. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/IRs/rir_Classroom_stereo.wav
@@ -56,7 +56,7 @@ pages:
     - type: mushra
       id: Dining Room
       name: Dining Room
-      content: Artificial reverberation in dining room. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference. 0: very very very audible difference.
+      content: Artificial reverberation in dining room. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/IRs/rir_Diningroom_stereo.wav
@@ -70,7 +70,7 @@ pages:
     - type: mushra
       id: Hallway
       name: Hallway
-      content: Artificial reverberation in hallway. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference. 0: very very very audible difference.
+      content: Artificial reverberation in hallway. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/IRs/rir_Hallway_stereo.wav
@@ -84,7 +84,7 @@ pages:
     - type: mushra
       id: Lobby
       name: Lobby
-      content: Artificial reverberation in lobby. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference. 0: very very very audible difference.
+      content: Artificial reverberation in lobby. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/IRs/rir_Lobby_stereo.wav
@@ -98,7 +98,7 @@ pages:
     - type: mushra
       id: Meeting Room
       name: Meeting Room
-      content: Artificial reverberation in meeting room. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference. 0: very very very audible difference.
+      content: Artificial reverberation in meeting room. 100 : no audible difference with reference. 80: slightly audible difference with reference. 60: audible difference. 40: very audible difference. 20: huge audible difference.
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/IRs/rir_MeetingRoom_stereo.wav
