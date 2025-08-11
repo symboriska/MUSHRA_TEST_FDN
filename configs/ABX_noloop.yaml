@@ -3,7 +3,7 @@
 
 testname: ABX without looping
 testId: abx_noloop
-bufferSize: 2048
+bufferSize: 4096
 stopOnErrors: true
 showButtonPreviousPage: true
 remoteService: "https://hooks.zapier.com/hooks/catch/24167465/u61pnt9/?key=CHANGE_ME&user=${id}"
@@ -22,18 +22,6 @@ pages:
       stimuli:
           C1: configs/resources/speech_conv/rir_Bathroom_conv_stereo.wav
           C2: configs/resources/speech_conv/rir_Bathroom_synth_conv_stereo.wav
-
-    - type: paired_comparison
-      id: speechBedroom
-      name: speech bedroom
-      unforced: I don't know
-      content: Select the sound that is closer to the reference sound.
-      showWaveform: true
-      enableLooping: false 
-      reference: configs/resources/speech_conv/rir_Bedroom_conv_stereo.wav
-      stimuli:
-          C1: configs/resources/speech_conv/rir_Bedroom_conv_stereo.wav
-          C2: configs/resources/speech_conv/rir_Bedroom_synth_conv_stereo.wav
 
     - type: paired_comparison
       id: speechClassroom
@@ -156,18 +144,6 @@ pages:
           C2: configs/resources/drum_conv/rir_Bathroom_synth_conv_stereo.wav
 
     - type: paired_comparison
-      id: drumBedroom
-      name: drum Bedroom
-      unforced: I don't know
-      content: Select the sound that is closer to the reference sound.
-      showWaveform: true
-      enableLooping: false 
-      reference: configs/resources/drum_conv/rir_Bedroom_conv_stereo.wav
-      stimuli:
-          C1: configs/resources/drum_conv/rir_Bedroom_conv_stereo.wav
-          C2: configs/resources/drum_conv/rir_Bedroom_synth_conv_stereo.wav
-
-    - type: paired_comparison
       id: drumClassroom
       name: drum Classroom
       unforced: I don't know
@@ -178,18 +154,6 @@ pages:
       stimuli:
           C1: configs/resources/drum_conv/rir_Classroom_conv_stereo.wav
           C2: configs/resources/drum_conv/rir_Classroom_synth_conv_stereo.wav
-
-    - type: paired_comparison
-      id: pianoBedroom
-      name: piano Bedroom
-      unforced: I don't know
-      content: Select the sound that is closer to the reference sound.
-      showWaveform: true
-      enableLooping: false 
-      reference: configs/resources/piano_conv/rir_Bedroom_conv_stereo.wav
-      stimuli:
-          C1: configs/resources/piano_conv/rir_Bedroom_conv_stereo.wav
-          C2: configs/resources/piano_conv/rir_Bedroom_synth_conv_stereo.wav
 
     - type: paired_comparison
       id: pianoDiningroom
